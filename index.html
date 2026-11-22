@@ -20,11 +20,15 @@ h2{font-size:1.4rem;margin:0 0 .7rem}h2 small{font-weight:500;color:var(--muted)
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:0 1rem}.classes{padding-left:1.25rem;margin:.3rem 0}.classes li{margin:.15rem 0}details{margin:.5rem 0}summary{color:var(--accent);cursor:pointer}details p{margin:.35rem 0 0}
 footer{border-top:1px solid var(--line);padding:1rem 0;color:var(--muted);font-size:.9rem}
 @media(max-width:42rem){.hero{margin-top:1rem}.cols{grid-template-columns:1fr}.nav{gap:0 .9rem}}
+
+.hero.hero-with-portrait{display:grid;grid-template-columns:minmax(0,1fr) minmax(12rem,16rem);align-items:center;gap:clamp(1rem,4vw,2.3rem)}
+.hero-portrait{display:block;width:100%;height:auto;border-radius:.65rem}
+@media(max-width:42rem){.hero.hero-with-portrait{grid-template-columns:1fr}.hero-portrait{max-width:17rem}}
 </style></head>
 <body><a class="skip" href="#main">本文へ移動</a>
 <header><div class="wrap"><a href="#main" class="brand">粟津 光</a><nav aria-label="ページ内メニュー"><ul class="nav"><li><a href="#profile">プロフィール</a></li><li><a href="#papers">論文</a></li><li><a href="#talks">発表</a></li><li><a href="#teaching">授業</a></li><li><a href="#links">リンク</a></li></ul></nav></div></header>
 <main id="main" class="wrap">
-<section class="hero" aria-labelledby="name"><p class="eyebrow" lang="en">MATHEMATICS</p><h1 id="name">粟津 光<span lang="en">Hikaru Awazu</span></h1><p>函館工業高等専門学校 一般系 助教（数学）</p><p lang="en">Assistant Professor of Mathematics, National Institute of Technology (KOSEN), Hakodate College</p><p>博士（数理科学）</p></section>
+<section class="hero hero-with-portrait" aria-labelledby="name"><div><p class="eyebrow" lang="en">MATHEMATICS</p><h1 id="name">粟津 光<span lang="en">Hikaru Awazu</span></h1><p>函館工業高等専門学校 一般系 助教（数学）</p><p lang="en">Assistant Professor of Mathematics, National Institute of Technology (KOSEN), Hakodate College</p><p>博士（数理科学）</p></div><img class="hero-portrait" src="./portrait.jpg" alt="粟津 光" width="1024" height="768" decoding="async"></section>
 <section class="panel" id="profile"><h2>プロフィール・研究<small lang="en">Profile &amp; Research</small></h2><p>群や群作用の従順性、離散無限群の諸性質を、Banach環論やC*環論を用いて研究しています。</p><p lang="en">Study of amenable groups, amenable group actions and other properties of discrete groups using Banach algebras and C*-algebras.</p>
 <h3>経歴</h3><ul class="entries"><li>1995年生まれ</li><li>2018年 東京大学教養学部統合自然科学科 卒業</li><li>2020年 東京大学大学院数理科学研究科 修士課程修了</li><li>2026年 東京大学大学院数理科学研究科 博士課程修了</li><li>現職：函館工業高等専門学校 一般系 助教</li></ul><p>修士・博士課程指導教員：<a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/">河東泰之 教授</a></p></section>
 <section class="panel" id="papers"><h2>論文<small lang="en">Preprints</small></h2><ul class="entries">
